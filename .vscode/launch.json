@@ -1,0 +1,19 @@
+{
+"version": "0.2.0",
+"configurations": [
+{
+ "name": "Launch",
+ "type": "go",
+ "request": "launch",
+ "mode": "auto",
+ "program": "${workspaceFolder}/main.go",
+ "dlvFlags": ["--check-go-version=false"],
+ "env": {
+"SERVICE_NAME": "YOUR_SERVICE_NAME",
+"PORT": "3002",
+ },
+ "args": [],
+ "showLog": true
+}
+]
+    }
